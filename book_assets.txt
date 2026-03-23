@@ -1,0 +1,114 @@
+Chapter 1
+code/assets/Chapter_1_The_ontology_of_agency.png
+
+Chapter 2
+-- none --
+
+Chapter 3
+-- none --
+
+Chapter 4
+code/assets/Chapter_4_The_various_types_of_LLMs_and_their_relationships.png
+code/assets/Chapter_4_nala_photo.jpg
+code/AgenticBook-chapter-4.ipynb
+
+Chapter 5
+code/assets/Chapter_5_Structure_of_graph_in_single_agent_architecture.png
+code/assets/Chapter_5_Structure_of_multi_agent_graph.png
+code/AgenticBook-chapter-5.ipynb
+
+Chapter 6
+code/assets/Chapter_6_Asking_Census_Data_Agent_for_population_of_all_states.png
+code/assets/Chapter_6_Asking_Census_data_agent_for_state_with_highest_median_income.png
+code/assets/Chapter_6_Asking_Census_Data_Agent_for_state_with_highest_proportion_of_Blacks.png
+code/assets/Chapter_6_BeeAI_CLI_used_to_list_all_available_ACP_agents.png
+code/assets/Chapter_6_Issuing_queries_to_the_web_agent.png
+code/assets/Chapter_6_Listing _all_available_agents_using_BeeAI.png
+code/assets/Chapter_6_MCP_server_response.png
+code/AgenticBook-chapter-6.ipynb
+code/simple_agent_server.py
+code/us_census_server.py
+code/census_langgraph_agent.py
+code/MCPClient.py
+
+Chapter 7
+code/assets/Chapter_7_Memory_types.png
+code/assets/Chapter_7_Sample_run_of_the_chatbot.png
+code/assets/Chapter_7_Tools_in_SQLDatabaseToolkit.png
+code/AgenticBook-chapter-7.ipynb
+code/simple_chatbot.py
+code/ReACT_chatbot_working_memory.py
+
+Chapter 8
+code/assets/Chapter_8_Four_phases-of_agent_specification.png
+code/assets/Chapter_8_Gathering_requirements_on_experiences_and_capabilities.png
+code/assets/Chapter_8_Steps_in_user_need_analysis.png
+
+Chapter 9
+code/AgenticBook-chapter-9.ipynb
+
+Chapter 10
+code/Chapter_10_AB_testing.py
+code/Chapter_10_Prompt_validation.py
+code/assets/Chapter_10_Integration_testing_of_agentic_systems.png
+code/assets/Chapter_10_Unit_Testing_Approaches_for_Agentic_Components.png
+
+Chapter 11
+code/assets/Chapter_11_Gemini_1.png
+code/assets/Chapter_11_Gemini_2.png
+code/assets/Chapter_11_Gemini_3.png
+code/assets/Chapter_11_Gemini_4.png
+code/assets/Chapter_11_Gemini_GDP_vs_LifeExpect.png
+
+Chapter 12
+code/assets/Chapter_12_AB_testing_architecture.png
+code/assets/Chapter_12_Blue_Green_Deployment.png
+code/assets/Chapter_12_Cost_of_Edge_vs_Cloud.png
+code/assets/Chapter_12_Example_of_offline_capability_architecture.png
+code/assets/Chapter_12_Fallback_chain.png
+code/assets/Chapter_12_Multi_Region_Deployment_Topology.png
+code/assets/Chapter_12_Resource_utilization_patterns.png
+code/assets/Chapter_12_Rollback_decision_tree.png
+code/assets/Chapter_12_Thermal_Management_Strategy.png
+code/assets/Chapter_12_Three_tier_agent_architecture.png
+
+
+Chapter 13
+code/assets/Chapter_13_Actiona_rate_limit_and_verification.png
+code/assets/Chapter_13_Agent_integrity_verification.png
+code/assets/Chapter_13_Boundary_enforcement.png
+code/assets/Chapter_13_Code_execution_sandbox.png
+code/assets/Chapter_13_Defensive_strategies.png
+code/assets/Chapter_13_Delayed_execution_with_review_window.png
+code/assets/Chapter_13_Dual_agent_verification.png
+code/assets/Chapter_13_Dynamic_challenge_response.png
+code/assets/Chapter_13_Dynamic_policy_evaluation.png
+code/assets/Chapter_13_Dynamics_Trust_adjustment.png
+code/assets/Chapter_13_JIT_permissions.png
+code/assets/Chapter_13_Task_specific_privilege_elevation.png
+code/assets/Chapter_13_Various_types_of_attack_vectors.png
+
+Chapter 14
+-- none --
+
+Chapter 15
+code/assets/Chapter_15_Cross_Functional_Coordination.png
+code/assets/Chapter_15_Four_aspects_of_scientific_research.png
+code/assets/Chapter_15_Intertwined_nature_of_hypothesis_generation_and_testing.png
+
+Chapter 16
+code/assets/Chapter_16_Architecture_agentic_scheduling.png
+code/assets/Chapter_16_Architecture_AI_tutoring.png
+code/assets/Chapter_16_Architecture_home_automation.png
+
+Chapter 17
+code/assets/Chapter_17_Hollowing_out_of_mid_level_jobs.png
+
+Chapter 18
+code/assets/Chapter_18_architecture_overview.png
+code/assets/Chapter_18_clinical_guidelines_query.png
+code/assets/Chapter_18_drug_information_query.png
+code/assets/Chapter_18_drug_not_in_corpus_query.png
+code/assets/Chapter_18_memory_in_action_query.png
+code/assets/Chapter_18_viewing_traces_in_langsmith.png
+clinical-research-agent (folder, containing full code repo of example chat agent)
