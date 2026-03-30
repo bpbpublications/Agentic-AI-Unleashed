@@ -1,0 +1,30 @@
+# ============================================================
+# Appendix: Clinical Research Assistant Agent
+# Agentic AI Unleashed — Anand & Jayaram Nanduri
+# ============================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+# --- Core LangChain & LangGraph ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+
+# --- MCP Tool Server (FastAPI-based simulation) ---
+fastapi>=0.115.0
+uvicorn>=0.30.0
+httpx>=0.27.0             # LangGraph agents call the MCP server via HTTP
+pydantic>=2.8.0           # Structured outputs and request/response models
+
+# --- RAG: Embeddings & Vector Store ---
+faiss-cpu>=1.8.0          # In-memory vector search, no external DB needed
+tiktoken>=0.7.0           # Token counting for OpenAI embeddings
+
+# --- Observability ---
+langsmith>=0.1.0          # LangSmith tracing — wired via environment variables
+
+# --- Utilities ---
+python-dotenv>=1.0.0      # Load .env configuration
+rich>=13.0.0              # Pretty console output for sample run display

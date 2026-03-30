@@ -1,0 +1,50 @@
+[project]
+name = "clinical-research-agent"
+version = "0.1.0"
+description = "Clinical Research Assistant Agent — Appendix Demo for 'Agentic AI Unleashed'"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    # --- Core LangChain & LangGraph ---
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langgraph>=0.2.0",
+
+    # --- MCP Tool Server (FastAPI-based simulation) ---
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "httpx>=0.27.0",          # Agents call the MCP server via HTTP
+    "pydantic>=2.8.0",        # Structured outputs and request/response models
+
+    # --- RAG: Embeddings & Vector Store ---
+    "faiss-cpu>=1.8.0",       # In-memory vector search, no external DB needed
+    "tiktoken>=0.7.0",        # Token counting for OpenAI embeddings
+
+    # --- Observability ---
+    "langsmith>=0.1.0",       # LangSmith tracing — wired via environment variables
+
+    # --- Utilities ---
+    "python-dotenv>=1.0.0",   # Load .env configuration
+    "rich>=13.0.0",           # Pretty console output for sample run display
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+
+# ── Tell uv this is a script project, not an installable package ──
+# Without this, uv tries to build and install the project itself
+# using the build backend, which fails because there is no
+# clinical_research_agent/ package directory. This project is a
+# collection of runnable scripts, not a library.
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
